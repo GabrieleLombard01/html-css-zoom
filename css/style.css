@@ -80,24 +80,42 @@ footer{
 #foot_center{
     display: flex;
     justify-content: center;
+    gap: 5px;
 }
 #foot_right{
     display: flex;
     justify-content: flex-end;
 }
 .foot_buttons{
-    background-color: rgb(147, 147, 254);
     height: 80px;
     width: 100px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    padding-bottom: 20px;
+    position: relative;
+}
+.foot_description{
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+.foot_inline{
+    font-size: 12px;
 }
 .foot_largebutton{
-    background-color: rgb(147, 147, 254);
-    border: solid black;
     height: 80px;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#green_icon{
+    color: #4bc800;
+}
+#red_text{
+    color: red;
+    font-weight: bold;
 }
