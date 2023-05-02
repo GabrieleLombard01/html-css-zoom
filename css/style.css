@@ -9,8 +9,8 @@ body{
     background-color: black;
   }
 /*Custom properties*/
-.audio:hover{
-    opacity: 1;
+.card:hover .audio{
+     opacity: 1;
 }
 /*Generics*/
 header{
@@ -70,8 +70,7 @@ footer{
     position: relative;
 }
 .audio{
-    /*
-    opacity: 0;  */
+    opacity: 0;  
 }
 .main_audio{
     height: 30px;
