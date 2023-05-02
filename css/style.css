@@ -7,10 +7,19 @@
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: black;
-  }
+}
 /*Custom properties*/
 .card:hover .audio{
-     opacity: 1;
+    opacity: 1;
+}
+.foot_buttons:hover{
+    text-shadow: 0 0 5px;
+}
+.side_bottoms:hover{
+    text-shadow: 0 0 5px;
+}
+.foot_largebutton:hover{
+    background-color: #4a4a4a;
 }
 /*Generics*/
 header{
@@ -148,7 +157,6 @@ footer{
     font-size: 12px;
 }
 .foot_largebutton{
-    background-color: #4a4a4a;
     height: 80px;
     width: 200px;
     display: flex;
