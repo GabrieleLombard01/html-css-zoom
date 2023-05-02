@@ -33,9 +33,14 @@ footer{
 .conteiner{
     background-color: rgb(181, 181, 181);
     margin: 0 auto;
-    max-width: 1700px;
-    height: calc(100vh - 80px);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 1540px;
+    height: calc(159vh - 80px);
     font-size: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 /*Header*/
 .side_bottoms{
@@ -50,7 +55,12 @@ footer{
     margin-right: 10px;
 }
 /*Main*/
-
+.card{
+    background-color: white;
+    border: solid black 1px;
+    height: 200px;
+    width: 300px;
+}
 /*Footer*/
 .foot_conteined{
     background-color: blue;
