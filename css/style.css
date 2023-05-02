@@ -6,6 +6,7 @@
 }
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: black;
   }
 /*Custom properties*/
 
@@ -68,9 +69,7 @@ footer{
 }
 /*Footer*/
 .foot_conteined{
-    background-color: blue;
-    border-style: inset;
-    border: solid white;
+    background-color: #222222;
     height: 80px;
     width: calc(100vw / 3 );
 }    
@@ -88,9 +87,13 @@ footer{
 }
 .foot_buttons{
     background-color: rgb(147, 147, 254);
-    border: solid black;
     height: 80px;
     width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 .foot_largebutton{
     background-color: rgb(147, 147, 254);
