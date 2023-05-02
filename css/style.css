@@ -11,7 +11,7 @@ body{
 
 /*Generics*/
 header{
-    background-color: rgb(203, 248, 248);
+    background-color: black;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -46,9 +46,14 @@ footer{
 .side_bottoms{
     min-height: 30px;
     width: 150px;
-    background-color: grey;
+    background-color: rgba(255, 255, 255, 0.39);
     border-radius: 10px;
-    margin: 5px
+    margin: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 .side_small_b{
     max-width: 40px;
