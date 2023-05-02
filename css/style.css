@@ -98,6 +98,19 @@ footer{
     top: 2px;
     right: 2px; 
 }
+.names{
+    min-height: 30px;
+    width: 130px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    border: solid black;
+    color: rgb(0, 0, 0);
+    padding-top: 3px;
+    text-align: center;
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
 /*Footer*/
 .foot_conteined{
     background-color: #222222;
