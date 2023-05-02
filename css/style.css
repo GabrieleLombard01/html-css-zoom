@@ -10,11 +10,27 @@ body{
 /*Custom properties*/
 
 /*Generics*/
-
+header{
+    min-height: 60px;
+    background-color: rgb(203, 248, 248);
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
 /*Utilties*/
 
 /*Header*/
+.side_bottoms{
+    min-height: 30px;
+    width: 180px;
+    background-color: grey;
+    border-radius: 10px;
 
+}
+.side_small_b{
+    max-width: 60px;
+    margin-right: 10px;
+}
 /*Main*/
 
 /*Footer*/
