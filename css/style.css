@@ -37,7 +37,6 @@ footer{
 }
 /*Utilties*/
 .conteiner{
-    background-color: rgb(181, 181, 181);
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -66,8 +65,6 @@ footer{
 }
 /*Main*/
 .card{
-    background-color: white;
-    border: solid black 1px;
     height: 200px;
     width: 300px;
     position: relative;
