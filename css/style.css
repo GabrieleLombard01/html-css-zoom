@@ -11,24 +11,33 @@ body{
 
 /*Generics*/
 header{
-    min-height: 60px;
     background-color: rgb(203, 248, 248);
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     gap: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 /*Utilties*/
-
+.conteiner{
+    background-color: rgb(181, 181, 181);
+    margin: 0 auto;
+    max-width: 1700px;
+    height: calc(100vh - 80px);
+    font-size: 100px;
+}
 /*Header*/
 .side_bottoms{
     min-height: 30px;
-    width: 180px;
+    width: 150px;
     background-color: grey;
     border-radius: 10px;
-
+    margin: 5px
 }
 .side_small_b{
-    max-width: 60px;
+    max-width: 40px;
     margin-right: 10px;
 }
 /*Main*/
